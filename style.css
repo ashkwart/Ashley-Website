@@ -298,6 +298,25 @@ nav a {
 
       /* Food me page setup end */
 
+      /*Delta page setup*/
+
+
+      .delta-txt{
+        font-family: "Calistoga", serif;
+        color: #5d4a4a;
+        padding: 20px;
+        background-color: #fff0f0;
+        margin-top: -10px;
+        margin-left: 20;
+      }
+
+      .delta-button:hover{
+        border:1px solid #a29494;
+        background: #a29494;
+        transition: 1s;
+      }
+
+      /*Delta page setup end*/
 
 
 
