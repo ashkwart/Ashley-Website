@@ -248,19 +248,37 @@ nav a {
 
     }
 
-    .proj-col {
+    .proj-col1 {
         flex: 1;
         max-width: 300px; /* Adjust max-width as needed */
         text-align: center;
       }
       
-      .proj-col h3 {
+      .proj-col1 h3 {
         font-size: 24px;
         color: #5d4a4a;
         margin-bottom: 20px;
       }
       
-      .proj-col img {
+      .proj-col1 img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+      }
+
+      .proj-col2 {
+        flex: 1;
+        max-width: 300px; /* Adjust max-width as needed */
+        text-align: center;
+      }
+      
+      .proj-col2 h3 {
+        font-size: 24px;
+        color: #5d4a4a;
+        margin-bottom: 20px;
+      }
+      
+      .proj-col2 img {
         width: 100%;
         height: auto;
         border-radius: 10px; /* Optional: Add border-radius for rounded corners */
@@ -317,6 +335,29 @@ nav a {
       }
 
       /*Delta page setup end*/
+
+      .h1 {
+        color: #5d4a4a;
+        padding: 20px;
+        background-color: #fff0f0;
+        text-align: center; /* Change text alignment */
+        margin-top: -50px;
+      }
+
+      .eco-txt{
+        font-family: "Calistoga", serif;
+        color: #5d4a4a;
+        padding: 20px;
+        background-color: #fff0f0;
+        margin-top: -10px;
+        margin-left: 20;
+      }
+
+      .eco-button:hover{
+        border:1px solid #a29494;
+        background: #a29494;
+        transition: 1s;
+      }
 
 
 
