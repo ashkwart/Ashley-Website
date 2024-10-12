@@ -12,6 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Yeseva+One&display=swap" rel="stylesheet">
 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet"> 
+
     
     <!-- <style>
         body {
@@ -51,7 +56,7 @@
     <main>
         <center>
             <!-- images/ab5d39528bbe450927c3f07edc37c95c.jpg -->
-            <img width="250" height="200" src="images/topright.jpg">
+            <img class = "floaters" width="250" height="200" src="images/topright.jpg">
             <div class="text-box">
                 <h1> <br><br> Welcome to My Website </h1>
 
@@ -63,7 +68,18 @@
         </div>
 
         </center>
-    </main>
+    <script>
+        document.body.addEventListener('click', function() {
+            const elements = document.querySelectorAll('.text-box, img'); // Select elements to animate
+            elements.forEach(element => {
+                element.classList.add('float-up'); // Add class to trigger animation
+                // Optionally remove class after animation is complete
+                setTimeout(() => {
+                    element.classList.remove('float-up');
+                }, 1000); // Match duration with CSS animation
+            });
+        });
+    </script>
 
 </body>
 

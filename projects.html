@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Yeseva+One&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet"> 
 </head>
 
 
@@ -26,25 +31,44 @@
             </div>
         </nav>
     </section>
+
+    <script>
+        document.body.addEventListener('click', function() {
+            const elements = document.querySelectorAll('.text-box, img'); // Select elements to animate
+            elements.forEach(element => {
+                element.classList.add('float-up'); // Add class to trigger animation
+                // Optionally remove class after animation is complete
+                setTimeout(() => {
+                    element.classList.remove('float-up');
+                }, 1000); // Match duration with CSS animation
+            });
+        });
+    </script>
 </body>
 
 <!-- Setting Up Project Section -->
 <main>
+    <h1 class = "headers"> What i'm working on... </h1>
     <center>
         <section class="projects">
-            <h1> What i'm working on... </h1>
+            
     
             <div class ="row">
                 <div class="proj-col1">
                     <h3>UI Designs</h3>
                     <p> Designs I've been working on!
                     </p><br>
-                    <a href="FoodMe.html" target="_blank" class="foodme-button"> <img width= "320" height="200" src="images/foodme.png" alt="FoodMe" class="Foodme-logo"></a>
-
-                    <a href="DeltaRE.html" target="_blank" class="delta-button"> <img width= "320" height="200" src="images/Delta-re.png" alt="Delta" class="delta-logo"></a>
-
-                    <a href="EcoCart.html" target="_blank" class="Eco-button"> <img width= "320" height="200" src="images/EcoCart.png" alt="Eco" class="Eco-logo"></a>
-
+                    <a href="FoodMe.html" target="_blank" class="foodme-button"> 
+                        <img width="420" height="300" src="images/foodme.png" alt="FoodMe" class="Foodme-logo">
+                    </a>
+                    
+                    <a href="DeltaRE.html" target="_blank" class="delta-button"> 
+                        <img width="320" height="200" src="images/Delta-re.png" alt="Delta" class="delta-logo">
+                    </a>
+                    
+                    <a href="EcoCart.html" target="_blank" class="Eco-button"> 
+                        <img width="320" height="200" src="images/EcoCart.png" alt="Eco" class="Eco-logo">
+                    </a>
                 </div>
 
                 <div class="proj-col2">
